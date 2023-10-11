@@ -1,0 +1,36 @@
+#sideBar{
+  width:15vw;
+  background-color:green;
+  height:100vh;
+}
+
+#header{
+  height:15vh;
+  background-color:blue;
+}
+
+/* #content{
+  background-color:red;
+} */
+
+#home{
+  background-color:yellow;
+  width:85vw;
+  min-height:100vh;;
+}
+
+#main{
+  display: flex;
+}
+
+.list{
+  display:flex;
+  flex-wrap:wrap;
+  list-style: none;
+}
+
+.listItem{
+  margin:20px;
+  padding:10px;
+  border:solid;
+}
