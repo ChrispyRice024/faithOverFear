@@ -1,4 +1,3 @@
-const Item = require('./Item')
-
-
-module.exports = {Item}
+module.exports = {
+    Item: require('./Item')
+}
