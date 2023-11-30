@@ -5,8 +5,11 @@
 }
 
 #header{
-  height:15vh;
+  --size:15vh;
+  height:var(--size);
   background-color:blue;
+  width:calc((100vw)-30px);
+  display: flex;
 }
 
 /* #content{
@@ -33,4 +36,20 @@
   margin:20px;
   padding:10px;
   border:solid;
+}
+
+#header_logo{
+  height: calc(var(--size) - 30px);
+  padding: 15px;
+
+}
+
+#userActions{
+ display: flex;
+ justify-content:right;
+}
+
+#navbar{
+  width:calc((100vw)-30px);
+  align-items: center;
 }
